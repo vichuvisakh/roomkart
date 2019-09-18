@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lora', serif;
+  color: #505962;
+}
+
+/* navigation bar */
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size:.9rem;
+  letter-spacing: .1rem;
+  background-color: rgba(0, 0, 0, .6)!important;
+} 
+
+.navbar-brand img{
+height: 2rem;
+}
+
+.navbar-nav li{
+  padding-right: 0.7rem; 
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #FFFFFF;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #1ebba3;
+
+}
+/* carousel */
+.carousel-item{
+  height: 135vh;
+}
+
+.carousel-caption{
+  position: absolute;
+  top: 38%;
+  text-transform: uppercase;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+.carousel-caption h1{
+  font-family: 'Patrick Hand', cursive;
+font-size: 3.8rem;
+font-weight: 700;
+letter-spacing: .3rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+.carousel-caption h3{
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 2rem;
+ letter-spacing: .3rem;
+text-shadow: .1rem .1rem .8rem black;
+padding-bottom: 1rem;
+}
+
+/* welcome */
+.aboutus{
+  margin-top: 8rem;
+}
+.abtcontent h1{
+  font-family: 'Oxygen', sans-serif;
+ padding-left: 30%;
+ color: #263238;
+}
+.abtcontent h5{
+font-family: 'Oxygen', sans-serif;
+ padding-left: 30%;
+ padding-bottom: .6rem;
+}
+.abtcontent h6{
+font-family: 'Oxygen', sans-serif;
+font-weight: 700;
+font-size: 1rem;
+ padding-left: 30%;
+ text-transform: uppercase;
+ letter-spacing: .1rem;
+ color: #1ebba3;
+ padding-bottom: 1rem;
+}
+.abtcontent p{
+font-family: 'Oxygen', sans-serif;
+font-weight: 700;
+font-size: 1rem;
+ padding-left: 30%;
+ letter-spacing: .1rem;
+ margin-top: -4%;
+ }
+.abtcontent p span{
+font-family: 'Oxygen', sans-serif;
+font-weight: 700;
+font-size: 1rem;
+ letter-spacing: .1rem;
+ color: #1ebba3;
+}
+.abtcontent h4{
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: 400;
+ padding-left: 32%;
+ font-size: 3rem;
+ }
+.pic1{
+  background-image: url('img/bg/4.jpg');
+  background-size: cover;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+ }
+.pic2{
+  background-image: url('img/bg/6.jpg');
+  background-size: cover;
+  height: 200px;
+  border-radius: 10px;
+}
+.pic3{
+  background-image: url('img/bg/5.jpg');
+  background-size: cover;
+  height: 410px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+/* carousel2 */
+.hotel{
+  margin-top: 6rem;
+  height: 600px;
+  background-color: #0E2737;
+background-repeat: no-repeat;
+
+}
+.room{
+  margin-top: -10%;
+  margin-left: 55%;
+  text-align: left;
+}
+.room h3{
+  color: #1ebba3;
+}
+.room h3 span{
+color: #FFFFFF;
+font-size: 1rem;
+}
+.room p{
+  letter-spacing: .1rem;
+}
+.detail{
+  margin-top: 5%;
+}
+/* resort */
+.resort{
+  margin-top: 2.5%;
+}
+.resortimg{
+  overflow: hidden;
+}
+.resortimg img{
+  max-width: 100%;
+  transition: transform .5s ease;  
+}
+.resortimg img:hover{
+  transform: scale(1.1);
+
+}
+.resortxt h2{
+margin-top: 25%;
+}
+.row.no-padding [class*=col-] {
+  padding: 5px;
+}
+/* review */
+.card{
+  margin: 2rem;
+  }
+  .heading{
+    margin-top: 5%;
+  }
+  .review h3{
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+  }
+  .review h4{
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .review p{
+    font-family: 'Yesteryear', cursive;
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+  /* offer */
+ .offer h3{
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+  }
+  .offer h4{
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .offer p{
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 1.2rem;
+  }
+  .offerimg{
+    overflow: hidden;
+  }
+  .offerimg img{
+  max-width: 100%;
+  transition: transform .5s ease;  
+}
+.offerimg img:hover{
+  transform: scale(1.1);
+
+}
+/* footer */
+.footer img{
+  height: 60px;
+  width: 200px;
+}
+.column{
+  float: left;
+  padding: 10px;
+}
+.footer {
+  background-color: #0E2737;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: -20px;
+  }
+
+.footerlside {
+  float: left;
+  padding: 10px;
+  width: 33.33%; 
+}
+.footerside {
+  float: left;
+  padding: 10px;
+  width: 33.33%;
+  padding-left: 5%; 
+}
+
+.footermiddle {
+  width: 33.33%;
+}
+
+.footer h1{
+font-family: 'Oxygen', sans-serif;
+  color: #FFFFFF;
+}
+.footerside h4{
+  padding-top: 3%;
+  padding-left: 6%;
+ font-family: 'Oxygen', sans-serif;
+ color: #1ebba3;
+}
+.footerside h5{
+  padding-top: 1%;
+   font-family: 'Oxygen', sans-serif;
+   color: #FFFFFF;
+   padding-left: 7%;
+}
+.footerside h6{
+  padding-top: 1%;
+   font-family: 'Oxygen', sans-serif;
+   color: #FFFFFF;
+   padding-left: 7%;
+}
+
+.footerlside h5{
+  padding-top: 6%;
+  padding-left: 6%;
+ font-family: 'Oxygen', sans-serif;
+   font-weight: 500;
+   color: #1ebba3;
+}
+.footerlside h6{
+  padding-top: 3%;
+  padding-left: 6%;
+ font-family: 'Oxygen', sans-serif;
+ color: #FFFFFF;
+}
+.footerside h5{
+ font-family: 'Oxygen', sans-serif;
+  color: #FFFFFF;
+}
+
+.footermiddle {
+   padding-top: 6%;
+font-family: 'Oxygen', sans-serif;
+ 
+}
