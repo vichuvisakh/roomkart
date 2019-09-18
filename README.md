@@ -1,6 +1,6 @@
-RoomKart
-Hotels & Resorts
-Requirements
+#RoomKart
+#Hotels & Resorts
+#Requirements
 ⦁	Create a static page with a contact form.
 ⦁	Include
 ⦁	Header with infographic image.
